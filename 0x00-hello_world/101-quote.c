@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <inistd.h>
+#include <unistd.h>
 /**
  * main - prints exactly
  * followed by a new line
