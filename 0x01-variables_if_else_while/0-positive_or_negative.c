@@ -5,7 +5,7 @@
 /**
  * main - prints if number is
  * positive, zero or negative
- * Return: always 0 (success)
+ * Return: always (success)
  */
 int main(void)
 {
@@ -27,3 +27,4 @@ int main(void)
 		printf("%d is negative\n", n);
 	}
 	return (0);
+}
