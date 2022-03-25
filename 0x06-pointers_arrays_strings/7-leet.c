@@ -4,7 +4,7 @@
  * leet - encodes a string in 1337
  * @s: string to be encoded
  *
- * Return: the resulting string
+ * Return: the resulting string;
  */
 char *leet(char *s)
 {
@@ -17,7 +17,7 @@ char *leet(char *s)
 	{
 		for (j = 0; j < 10; j++)
 		{
-			if (s[i] == a[j])
+		if ((s[i]) == (a[j]))
 					{
 					s[i] = b[j];
 					}
